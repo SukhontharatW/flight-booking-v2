@@ -64,7 +64,7 @@ This project is a **secure flight search and booking system** built using the ME
         
         bash
         
-        `cd frontend
+        `cd frontend/skyroutes
         npm install` 
         
     -   **For Backend**:
@@ -88,14 +88,14 @@ This project is a **secure flight search and booking system** built using the ME
 
         
         `cd backend
-        npm start` 
+        npm run start` 
         
     -   **Start the frontend application**:
         
         bash
        
-        `cd frontend
-        npm start` 
+        `cd frontend/skyroutes
+        npm run dev` 
         
 ## Assumptions Made
 
@@ -114,4 +114,3 @@ This project is a **secure flight search and booking system** built using the ME
 The application is designed with security and scalability in mind. Further enhancements may be needed based on specific requirements.
 
 ----------
-
