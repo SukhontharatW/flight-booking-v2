@@ -1,12 +1,16 @@
+
+
+----------
+ ![enter image description here](https://hjmcuvfhzmhjauagcqrq.supabase.co/storage/v1/object/public/project-images/skyroutes-overview%201.png?t=2024-08-25T18:32:56.979Z)
 ----------
 
 # Secure Flight Search and Booking System
 
-## Demo
+## ✈︎ Demo
 
 You can view a live demo of the project at: [Demo Link](https://skyroutes-app.onrender.com/)
 
-You can sign up or use the provided credentials to explore the system:
+You can sign up or use the provided credentials to explore the system 😊
 
 -   **Admin**
     
@@ -17,11 +21,11 @@ You can sign up or use the provided credentials to explore the system:
     -   Email: `user@gmail.com`
     -   Password: `password123`
 
-## Overview
+## ✈︎ Overview
 
 This project is a **secure flight search and booking system** built using the MERN stack (MongoDB, Express, React, Node.js). SCSS is utilized for advanced styling, and JWT is implemented for secure authentication.
 
-## Technical Stack
+## ✈︎ Technical Stack
 
 ### Frontend
 
@@ -40,7 +44,7 @@ This project is a **secure flight search and booking system** built using the ME
 -   **bcrypt**: Handles password hashing and secure management of user credentials.
 -   **CORS**: Configured to handle cross-origin requests securely.
 
-## Setup Instructions
+## ✈︎ Setup Instructions
 
 ### Prerequisites
 
@@ -97,7 +101,7 @@ This project is a **secure flight search and booking system** built using the ME
         `cd frontend/skyroutes
         npm run dev` 
         
-## Assumptions Made
+## ✈︎ Assumptions Made
 
 -   Mock flight data is used for demonstration purposes.
 -   Basic role-based access control is implemented.
@@ -109,8 +113,8 @@ This project is a **secure flight search and booking system** built using the ME
 - Database contains Flights, Users and Booking information.
 
 
-## Additional Notes
+## ✈︎ Additional Notes
 
-The application is designed with security and scalability in mind. Further enhancements may be needed based on specific requirements.
+The application is designed with security and scalability in mind. Further enhancements may be needed based on specific requirements. 😊
 
 ----------
