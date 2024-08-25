@@ -1,0 +1,44 @@
+@use "../global/" as *;
+.container__main .user-bookings {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: $space-max;
+}
+
+.user-bookings {
+  // Style for the user-bookings block
+  // padding: 6rem;
+  // background-color: #fff;
+  // border-radius: 8px;
+  // border: 1px solid red;
+  // display: flex;
+  // flex-direction: column;
+  // gap: 2rem;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  background-color: $color-white;
+  border-radius: 12px;
+
+  padding: 3rem var(--space-side) 3rem var(--space-side);
+
+  & h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  & .ticket-card {
+    display: flex;
+    border: 1px solid red;
+    padding: 2rem 3rem;
+    border: 1px solid #ddd;
+    width: 100%;
+    // max-width: 100rem;
+    border-radius: 12px;
+  }
+}

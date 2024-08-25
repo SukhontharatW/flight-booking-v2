@@ -1,0 +1,54 @@
+@use "../global/" as *;
+
+// Dashboard.scss
+.container__main .dashboard {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: $space-max;
+  padding: 0rem var(--space-side) 0rem var(--space-side);
+  padding: 0rem 2rem 0rem 2rem;
+}
+.dashboard {
+  &__container {
+    padding: 4rem 4rem;
+    margin: 0 auto;
+    background-color: $color-white;
+    border-radius: 1.2rem;
+  }
+  &__welcome-message {
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.8rem;
+
+      &:first-of-type {
+        margin-top: 2rem;
+      }
+    }
+
+    strong {
+      font-weight: bold;
+    }
+  }
+
+  &__features {
+    list-style: none;
+    padding: 0;
+    margin: 3rem auto;
+    padding-left: 2rem;
+
+    li {
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+      list-style: circle;
+      opacity: 0.8;
+    }
+  }
+
+  &__support-message {
+    font-size: 0.2rem;
+  }
+}

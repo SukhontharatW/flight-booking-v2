@@ -1,0 +1,115 @@
+@use "../global/" as *;
+.container__outer {
+  width: 100%;
+  background-color: $color-white;
+}
+.container__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 144rem;
+  margin: 0 auto;
+  background-color: $color-white;
+  // padding: 3.4rem var(--space-side) 6.3rem var(--space-side);
+  padding: 3.4rem 3rem 6.3rem 3rem;
+
+  margin-top: $space-max;
+  margin-top: 4rem;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4rem;
+
+  &__left {
+    min-width: max-content;
+  }
+  &__logo {
+    & img {
+      width: 15rem;
+      height: auto;
+      @media (max-width: 800px) {
+        width: 12.8rem;
+      }
+      @media (max-width: 430px) {
+        width: 10.8rem;
+      }
+    }
+  }
+  &__social {
+    display: flex;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    gap: 2.4rem;
+    @media (max-width: 600px) {
+      margin-top: 2.2rem;
+      margin-bottom: 2.6rem;
+      gap: 2.2rem;
+    }
+    &--icon {
+      color: $color_black;
+      font-size: 2.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2.5rem; /* 156.25% */
+      opacity: 0.65;
+      @media (max-width: 800px) {
+        font-size: 2.4rem;
+      }
+      @media (max-width: 600px) {
+        font-size: 2.2rem;
+      }
+      @media (max-width: 480px) {
+        font-size: 2.1rem;
+      }
+    }
+  }
+  &__directories {
+    display: flex;
+    max-width: 100%;
+    column-gap: 12rem;
+
+    justify-content: space-between;
+    @media (max-width: 800px) {
+      column-gap: 6rem;
+      width: 100%;
+    }
+    @media (max-width: 600px) {
+      gap: 3.5rem;
+      // width: 100%;
+      padding: 0rem 0.4rem;
+    }
+    @media (max-width: 480px) {
+      gap: 3rem;
+      // width: 100%;
+      padding: 0rem 0.2rem;
+    }
+    @media (max-width: 380px) {
+      // width: 100%;
+    }
+  }
+}
+.directories {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  @media (max-width: 430px) {
+    gap: 0.3rem;
+  }
+
+  & li {
+    text-decoration: none;
+    list-style: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}
