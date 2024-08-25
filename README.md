@@ -10,13 +10,13 @@
 
 You can view a live demo of the project at: [Demo Link](https://skyroutes-app.onrender.com/)
 
-You can sign up or use the provided credentials to explore the system 😊
+You can sign up or use the provided email and password below to login to the system 😊
 
--   **Admin**
+-   **Admin role**
     
     -   Email: `admin@gmail.com`
     -   Password: `password123`
--   **User**
+-   **User role**
     
     -   Email: `user@gmail.com`
     -   Password: `password123`
