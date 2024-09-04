@@ -1,9 +1,6 @@
 
 
-----------
- ![enter image description here](https://hjmcuvfhzmhjauagcqrq.supabase.co/storage/v1/object/public/project-images/skyroutes-bg.jpg?t=2024-09-04T16%3A10%3A29.365Z)
-----------
-
+![enter image description here](https://hjmcuvfhzmhjauagcqrq.supabase.co/storage/v1/object/public/project-images/Skyroute-bg.png?t=2024-09-04T17:28:33.838Z)
 # Secure Flight Search and Booking System
 
 ## ✈︎ Demo
